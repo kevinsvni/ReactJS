@@ -13,6 +13,8 @@ import ListRendering from './components/listrendering/ListRendering';
 import ArrayRendering from './components/arrayrendering/ArrayRendering';
 import CssStyling from './components/cssstyling/CssStyling';
 import ParentComp from './components/purecomponents/ParentComp';
+import ParentRefsDemo from './components/references/ParentRefsDemo';
+
 
 import './appStyles.css';
 import styles from './appStyles.module.css';
@@ -52,7 +54,9 @@ function App() {
 
       {/* <Form /> */}
       
-      <ParentComp />
+      {/* <ParentComp /> */}
+
+      <ParentRefsDemo /> 
 
     </div>
   );
