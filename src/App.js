@@ -12,6 +12,9 @@ import ParentComponent from './components/methodasprop/ParentComponent';
 import ListRendering from './components/listrendering/ListRendering';
 import ArrayRendering from './components/arrayrendering/ArrayRendering';
 import CssStyling from './components/cssstyling/CssStyling';
+import ParentComp from './components/purecomponents/ParentComp';
+import ParentRefsDemo from './components/references/ParentRefsDemo';
+
 
 import './appStyles.css';
 import styles from './appStyles.module.css';
@@ -49,8 +52,11 @@ function App() {
       {/* <h1 className='error'>Error</h1> */}    {/* used from appStyles.css */}
       {/* <h1 className={styles.success}>Success</h1> */}    {/* used from appStylesmodule.css */}
 
-      <Form />
+      {/* <Form /> */}
       
+      {/* <ParentComp /> */}
+
+      <ParentRefsDemo /> 
 
     </div>
   );
