@@ -14,6 +14,7 @@ import ArrayRendering from './components/arrayrendering/ArrayRendering';
 import CssStyling from './components/cssstyling/CssStyling';
 import ParentComp from './components/purecomponents/ParentComp';
 import ParentRefsDemo from './components/references/ParentRefsDemo';
+import PortalDemo from './components/PortalDemo';
 
 
 import './appStyles.css';
@@ -23,7 +24,7 @@ import Form from './components/form/Form';
 
 function App() {
   return (
-    <div className="App t">      
+    <div className="App">      
       {/* <FunctionalComponent name='Kevin' lname='Savani'/> */}
 
       {/* <ClassComponent name='Bhumi' lname='Savani'/> */}
@@ -56,7 +57,9 @@ function App() {
       
       {/* <ParentComp /> */}
 
-      <ParentRefsDemo /> 
+      {/* <ParentRefsDemo />  */}
+      
+      <PortalDemo /> 
 
     </div>
   );
