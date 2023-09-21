@@ -15,6 +15,8 @@ import CssStyling from './components/cssstyling/CssStyling';
 import ParentComp from './components/purecomponents/ParentComp';
 import ParentRefsDemo from './components/references/ParentRefsDemo';
 import PortalDemo from './components/PortalDemo';
+import Hero from './components/errorboundary/Hero';
+import ErrorBoundary from './components/errorboundary/ErrorBoundary';
 
 
 import './appStyles.css';
@@ -24,7 +26,7 @@ import Form from './components/form/Form';
 
 function App() {
   return (
-    <div className="App">      
+    <div className="App">
       {/* <FunctionalComponent name='Kevin' lname='Savani'/> */}
 
       {/* <ClassComponent name='Bhumi' lname='Savani'/> */}
@@ -36,7 +38,7 @@ function App() {
       {/* <MessageState /> */}
 
       {/* <Counter /> */}
-      
+
       {/* <FunctionEventClick /> */}
 
       {/* <ClassEventClick /> */}
@@ -54,12 +56,17 @@ function App() {
       {/* <h1 className={styles.success}>Success</h1> */}    {/* used from appStylesmodule.css */}
 
       {/* <Form /> */}
-      
+
       {/* <ParentComp /> */}
 
       {/* <ParentRefsDemo />  */}
+
+      {/* <PortalDemo />  */}
       
-      <PortalDemo /> 
+      <ErrorBoundary><Hero heroName="Kevin" /></ErrorBoundary>
+      <ErrorBoundary><Hero heroName="Dhruvin" /></ErrorBoundary>
+      <ErrorBoundary><Hero heroName="Bhumi" /></ErrorBoundary>
+      
 
     </div>
   );
