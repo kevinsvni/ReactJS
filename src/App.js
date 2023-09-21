@@ -18,6 +18,7 @@ import PortalDemo from './components/PortalDemo';
 import Hero from './components/errorboundary/Hero';
 import ErrorBoundary from './components/errorboundary/ErrorBoundary';
 import ParentHOC from './components/hoc/ParentHOC';
+import ParentRenderProps from './components/renderprops/ParentRenderProps';
 
 
 import './appStyles.css';
@@ -68,7 +69,9 @@ function App() {
       <ErrorBoundary><Hero heroName="Dhruvin" /></ErrorBoundary>
       <ErrorBoundary><Hero heroName="Bhumi" /></ErrorBoundary> */}
       
-      <ParentHOC />
+      {/* <ParentHOC /> */}
+
+      <ParentRenderProps />
 
     </div>
   );
