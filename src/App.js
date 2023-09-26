@@ -19,6 +19,7 @@ import Hero from './components/errorboundary/Hero';
 import ErrorBoundary from './components/errorboundary/ErrorBoundary';
 import ParentHOC from './components/hoc/ParentHOC';
 import ParentRenderProps from './components/renderprops/ParentRenderProps';
+import Context from './components/context/ParentContext';
 
 
 import './appStyles.css';
@@ -71,7 +72,9 @@ function App() {
       
       {/* <ParentHOC /> */}
 
-      <ParentRenderProps />
+      {/* <ParentRenderProps /> */}
+
+      <Context />
 
     </div>
   );
