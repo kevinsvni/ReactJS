@@ -21,6 +21,7 @@ import ParentHOC from './components/hoc/ParentHOC';
 import ParentRenderProps from './components/renderprops/ParentRenderProps';
 import Context from './components/context/ParentContext';
 import HttpGetRequest from './components/http/HttpGetRequest';
+import HttpPostRequest from './components/http/HttpPostRequest';
 
 
 import './appStyles.css';
@@ -77,7 +78,9 @@ function App() {
 
       {/* <Context /> */}
 
-      <HttpGetRequest />
+      {/* <HttpGetRequest /> */}
+
+      <HttpPostRequest />
 
 
     </div>
