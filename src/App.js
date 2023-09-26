@@ -20,6 +20,7 @@ import ErrorBoundary from './components/errorboundary/ErrorBoundary';
 import ParentHOC from './components/hoc/ParentHOC';
 import ParentRenderProps from './components/renderprops/ParentRenderProps';
 import Context from './components/context/ParentContext';
+import HttpGetRequest from './components/http/HttpGetRequest';
 
 
 import './appStyles.css';
@@ -74,7 +75,10 @@ function App() {
 
       {/* <ParentRenderProps /> */}
 
-      <Context />
+      {/* <Context /> */}
+
+      <HttpGetRequest />
+
 
     </div>
   );
