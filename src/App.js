@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import FunctionalComponent from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent';
@@ -17,6 +16,16 @@ import ParentRefsDemo from './components/references/ParentRefsDemo';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/errorboundary/Hero';
 import ErrorBoundary from './components/errorboundary/ErrorBoundary';
+import ParentHOC from './components/hoc/ParentHOC';
+import ParentRenderProps from './components/renderprops/ParentRenderProps';
+import Context from './components/context/ParentContext';
+import HttpGetRequest from './components/http/HttpGetRequest';
+import HttpPostRequest from './components/http/HttpPostRequest';
+
+
+import ClassCounter from './hookcomponents/ClassCounter';
+import HookCounter from './hookcomponents/HookCounter';
+import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
 
 
 import './appStyles.css';
@@ -62,11 +71,29 @@ function App() {
       {/* <ParentRefsDemo />  */}
 
       {/* <PortalDemo />  */}
-      
-      <ErrorBoundary><Hero heroName="Kevin" /></ErrorBoundary>
+
+      {/* <ErrorBoundary><Hero heroName="Kevin" /></ErrorBoundary>
       <ErrorBoundary><Hero heroName="Dhruvin" /></ErrorBoundary>
-      <ErrorBoundary><Hero heroName="Bhumi" /></ErrorBoundary>
-      
+      <ErrorBoundary><Hero heroName="Bhumi" /></ErrorBoundary> */}
+
+      {/* <ParentHOC /> */}
+
+      {/* <ParentRenderProps /> */}
+
+      {/* <Context /> */}
+
+      {/* <HttpGetRequest /> */}
+
+      {/* <HttpPostRequest /> */}
+
+
+      {/******************************* Hooks  *******************************/}
+      {/* <ClassCounter /> */}
+
+      {/* <HookCounter /> */}
+
+      <HookCounterPrevState />
+
 
     </div>
   );
