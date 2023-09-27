@@ -25,6 +25,7 @@ import HttpPostRequest from './components/http/HttpPostRequest';
 
 import ClassCounter from './hookcomponents/ClassCounter';
 import HookCounter from './hookcomponents/HookCounter';
+import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
 
 
 import './appStyles.css';
@@ -89,7 +90,9 @@ function App() {
       {/******************************* Hooks  *******************************/}
       {/* <ClassCounter /> */}
 
-      <HookCounter />
+      {/* <HookCounter /> */}
+
+      <HookCounterPrevState />
 
 
     </div>
