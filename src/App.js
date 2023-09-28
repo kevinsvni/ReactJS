@@ -26,6 +26,7 @@ import HttpPostRequest from './components/http/HttpPostRequest';
 import ClassCounter from './hookcomponents/ClassCounter';
 import HookCounter from './hookcomponents/HookCounter';
 import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
+import HookUsestateObject from './hookcomponents/HookUsestateObject';
 
 
 import './appStyles.css';
@@ -92,8 +93,9 @@ function App() {
 
       {/* <HookCounter /> */}
 
-      <HookCounterPrevState />
+      {/* <HookCounterPrevState /> */}
 
+      <HookUsestateObject />
 
     </div>
   );
