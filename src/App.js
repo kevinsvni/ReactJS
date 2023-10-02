@@ -34,6 +34,7 @@ import HookMousePosition from './hookcomponents/HookMousePosition';
 import HookMouseContainer from './hookcomponents/HookMouseContainer';
 import IntervalHookCounter from './hookcomponents/IntervalHookCounter';
 import DataFetching from './hookcomponents/DataFetching';
+import DataFetchingP2 from './hookcomponents/DataFetchingP2';
 
 
 import './appStyles.css';
@@ -116,7 +117,9 @@ function App() {
       
       {/* <IntervalHookCounter /> */}
 
-      <DataFetching />
+      {/* <DataFetching /> */}
+
+      <DataFetchingP2 />
 
     </div>
   );
