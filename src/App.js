@@ -32,6 +32,7 @@ import HookUseeffectCounter from './hookcomponents/HookUseeffectCounter';
 import HookUseeffectConditionalRun from './hookcomponents/HookUseeffectConditionalRun';
 import HookMousePosition from './hookcomponents/HookMousePosition';
 import HookMouseContainer from './hookcomponents/HookMouseContainer';
+import IntervalHookCounter from './hookcomponents/IntervalHookCounter';
 
 
 import './appStyles.css';
@@ -110,7 +111,9 @@ function App() {
 
       {/* <HookMousePosition /> */}
 
-      <HookMouseContainer />
+      {/* <HookMouseContainer /> */}
+      
+      <IntervalHookCounter />
 
     </div>
   );
