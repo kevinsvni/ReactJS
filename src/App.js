@@ -28,6 +28,7 @@ import HookCounter from './hookcomponents/HookCounter';
 import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
 import HookUsestateObject from './hookcomponents/HookUsestateObject';
 import HookUsestateArray from './hookcomponents/HookUsestateArray';
+import HookUseeffectCounter from './hookcomponents/HookUseeffectCounter';
 
 
 import './appStyles.css';
@@ -98,7 +99,9 @@ function App() {
 
       {/* <HookUsestateObject /> */}
 
-      <HookUsestateArray />
+      {/* <HookUsestateArray /> */}
+
+      <HookUseeffectCounter />
 
     </div>
   );
