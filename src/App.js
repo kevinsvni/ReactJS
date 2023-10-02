@@ -29,6 +29,7 @@ import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
 import HookUsestateObject from './hookcomponents/HookUsestateObject';
 import HookUsestateArray from './hookcomponents/HookUsestateArray';
 import HookUseeffectCounter from './hookcomponents/HookUseeffectCounter';
+import HookUseeffectConditionalRun from './hookcomponents/HookUseeffectConditionalRun';
 
 
 import './appStyles.css';
@@ -101,7 +102,9 @@ function App() {
 
       {/* <HookUsestateArray /> */}
 
-      <HookUseeffectCounter />
+      {/* <HookUseeffectCounter /> */}
+
+      <HookUseeffectConditionalRun />
 
     </div>
   );
