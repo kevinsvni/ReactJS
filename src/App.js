@@ -31,6 +31,7 @@ import HookUsestateArray from './hookcomponents/HookUsestateArray';
 import HookUseeffectCounter from './hookcomponents/HookUseeffectCounter';
 import HookUseeffectConditionalRun from './hookcomponents/HookUseeffectConditionalRun';
 import HookMousePosition from './hookcomponents/HookMousePosition';
+import HookMouseContainer from './hookcomponents/HookMouseContainer';
 
 
 import './appStyles.css';
@@ -107,7 +108,9 @@ function App() {
 
       {/* <HookUseeffectConditionalRun /> */}
 
-      <HookMousePosition />
+      {/* <HookMousePosition /> */}
+
+      <HookMouseContainer />
 
     </div>
   );
