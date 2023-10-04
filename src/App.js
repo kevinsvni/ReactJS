@@ -38,6 +38,7 @@ import DataFetchingP2 from './hookcomponents/DataFetchingP2';
 import HookContext from './hookcomponents/context/ParentContext';
 import UseReducerSimpleCounter from './hookcomponents/usereducer/UseReducerSimpleCounter';
 import UseReducerComplexCounter from './hookcomponents/usereducer/UseReducerComplexCounter';
+import MultipleUseReducersCounter from './hookcomponents/usereducer/MultipleUseReducersCounter';
 
 
 import './appStyles.css';
@@ -128,7 +129,9 @@ function App() {
 
       {/* <UseReducerSimpleCounter /> */}
 
-      <UseReducerComplexCounter />
+      {/* <UseReducerComplexCounter /> */}
+
+      <MultipleUseReducersCounter />
 
     </div>
   );
