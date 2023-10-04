@@ -26,6 +26,18 @@ import HttpPostRequest from './components/http/HttpPostRequest';
 import ClassCounter from './hookcomponents/ClassCounter';
 import HookCounter from './hookcomponents/HookCounter';
 import HookCounterPrevState from './hookcomponents/HookCounterPrevState';
+import HookUsestateObject from './hookcomponents/HookUsestateObject';
+import HookUsestateArray from './hookcomponents/HookUsestateArray';
+import HookUseeffectCounter from './hookcomponents/HookUseeffectCounter';
+import HookUseeffectConditionalRun from './hookcomponents/HookUseeffectConditionalRun';
+import HookMousePosition from './hookcomponents/HookMousePosition';
+import HookMouseContainer from './hookcomponents/HookMouseContainer';
+import IntervalHookCounter from './hookcomponents/IntervalHookCounter';
+import DataFetching from './hookcomponents/DataFetching';
+import DataFetchingP2 from './hookcomponents/DataFetchingP2';
+import HookContext from './hookcomponents/context/ParentContext';
+import UseReducerSimpleCounter from './hookcomponents/usereducer/UseReducerSimpleCounter';
+import UseReducerComplexCounter from './hookcomponents/usereducer/UseReducerComplexCounter';
 
 
 import './appStyles.css';
@@ -92,8 +104,31 @@ function App() {
 
       {/* <HookCounter /> */}
 
-      <HookCounterPrevState />
+      {/* <HookCounterPrevState /> */}
 
+      {/* <HookUsestateObject /> */}
+
+      {/* <HookUsestateArray /> */}
+
+      {/* <HookUseeffectCounter /> */}
+
+      {/* <HookUseeffectConditionalRun /> */}
+
+      {/* <HookMousePosition /> */}
+
+      {/* <HookMouseContainer /> */}
+      
+      {/* <IntervalHookCounter /> */}
+
+      {/* <DataFetching /> */}
+
+      {/* <DataFetchingP2 /> */}
+
+      {/* <HookContext /> */}
+
+      {/* <UseReducerSimpleCounter /> */}
+
+      <UseReducerComplexCounter />
 
     </div>
   );
