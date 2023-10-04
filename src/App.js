@@ -36,6 +36,7 @@ import IntervalHookCounter from './hookcomponents/IntervalHookCounter';
 import DataFetching from './hookcomponents/DataFetching';
 import DataFetchingP2 from './hookcomponents/DataFetchingP2';
 import HookContext from './hookcomponents/context/ParentContext';
+import UseReducerSimpleCounter from './hookcomponents/usereducer/UseReducerSimpleCounter';
 
 
 import './appStyles.css';
@@ -122,7 +123,9 @@ function App() {
 
       {/* <DataFetchingP2 /> */}
 
-      <HookContext />
+      {/* <HookContext /> */}
+
+      <UseReducerSimpleCounter />
 
     </div>
   );
