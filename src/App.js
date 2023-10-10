@@ -43,6 +43,7 @@ import UseReducerGlobalState from './hookcomponents/usereducerglobalstate/UseRed
 import UseReducerDataFetching from './hookcomponents/usereducer/UseReducerDataFetching';
 import UseCallbackHook from './hookcomponents/usecallback/UseCallbackHook';
 import UseMemoHook from './hookcomponents/usememo/UseMemoHook';
+import UseRefHook from './hookcomponents/useref/UseRefHook';
 
 
 import './appStyles.css';
@@ -143,7 +144,9 @@ function App() {
 
       {/* <UseCallbackHook /> */}
 
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+
+      <UseRefHook />
       
 
     </div>
