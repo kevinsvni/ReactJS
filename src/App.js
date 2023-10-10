@@ -44,6 +44,7 @@ import UseReducerDataFetching from './hookcomponents/usereducer/UseReducerDataFe
 import UseCallbackHook from './hookcomponents/usecallback/UseCallbackHook';
 import UseMemoHook from './hookcomponents/usememo/UseMemoHook';
 import UseRefHook from './hookcomponents/useref/UseRefHook';
+import HookTimer from './hookcomponents/useref/HookTimer';
 
 
 import './appStyles.css';
@@ -146,7 +147,9 @@ function App() {
 
       {/* <UseMemoHook /> */}
 
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+
+      <HookTimer />
       
 
     </div>
