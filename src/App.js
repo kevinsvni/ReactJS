@@ -41,6 +41,7 @@ import UseReducerComplexCounter from './hookcomponents/usereducer/UseReducerComp
 import MultipleUseReducersCounter from './hookcomponents/usereducer/MultipleUseReducersCounter';
 import UseReducerGlobalState from './hookcomponents/usereducerglobalstate/UseReducerGlobalState';
 import UseReducerDataFetching from './hookcomponents/usereducer/UseReducerDataFetching';
+import UseCallbackHook from './hookcomponents/usecallback/UseCallbackHook';
 
 
 import './appStyles.css';
@@ -137,7 +138,9 @@ function App() {
 
       {/* <UseReducerGlobalState /> */}
 
-      <UseReducerDataFetching />
+      {/* <UseReducerDataFetching /> */}
+
+      <UseCallbackHook />
 
     </div>
   );
