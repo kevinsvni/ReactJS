@@ -45,6 +45,7 @@ import UseCallbackHook from './hookcomponents/usecallback/UseCallbackHook';
 import UseMemoHook from './hookcomponents/usememo/UseMemoHook';
 import UseRefHook from './hookcomponents/useref/UseRefHook';
 import HookTimer from './hookcomponents/useref/HookTimer';
+import DocTitleCustomHook from './hookcomponents/customhook/DocTitleCustomHook';
 
 
 import './appStyles.css';
@@ -149,7 +150,9 @@ function App() {
 
       {/* <UseRefHook /> */}
 
-      <HookTimer />
+      {/* <HookTimer /> */}
+
+      <DocTitleCustomHook />
       
 
     </div>
